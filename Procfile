@@ -1,0 +1,1 @@
+web: gunicorn droneBackend.wsgi --log-file -

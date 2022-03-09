@@ -35,4 +35,4 @@ class LocationDroneDataFetchSerializer(serializers.ModelSerializer):
 class DroneDataMinimalSerializer(serializers.ModelSerializer):
     class Meta:
         model=DroneData
-        fields=['drone_name','first_launch','total_flight_time_min','last_seen']
+        fields=['drone_name','first_launch','total_flight_time_min','last_seen','latitude','longitude']

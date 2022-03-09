@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-s6+6l+735*(7$blev&q+=v_#-b99e-ap-xd+wyx-cb=-s7ov4@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','django-drone.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1','django-drone.herokuapp.com']
 
 
 # Application definition
